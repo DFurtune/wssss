@@ -9,15 +9,6 @@
 *.zip
 *.vi
 *~
-*.bowerrc
-*.editorconfig
-*.eslintrc.js
-*.gitignore
-*.stylelintrc.json
-*bower.json
-*gulpfile.js
-*package-lock.json
-*package.json
 
 
 # OS or Editor folders
