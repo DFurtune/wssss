@@ -1,6 +1,21 @@
 "use strict";
 
 $(document).ready(function () {
+  $(".one-time").slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    adaptiveHeight: true
+  });
+  $('.variable-width').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    centerMode: true,
+    variableWidth: true
+  });
   $(".multiple-items").slick({
     dots: true,
     infinite: true,
