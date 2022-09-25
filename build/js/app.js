@@ -16,6 +16,14 @@ $(document).ready(function () {
     centerMode: true,
     variableWidth: true
   });
+  $('.variable-width-category').slick({
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 4,
+    centerMode: false,
+    variableWidth: true
+  });
   $(".multiple-items").slick({
     dots: true,
     infinite: true,
